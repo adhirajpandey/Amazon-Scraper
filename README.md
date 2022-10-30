@@ -2,9 +2,12 @@
 
 # Description
 
-This script allows you to input an amazon link and outputs the fetched Product Title and Product Price.
+This Project allows you to scrape data from amazon website.
 
-# Requirements 
+- title_price.py - Product link as input and Product Title and Price as Output.
+- search_results.py - Search Term as input and txt file of links of listed Products as output.
+
+# Requirements
 
 - python3
 - pip3
