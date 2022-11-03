@@ -78,7 +78,7 @@ print("\n")
 
 #taking input from user
 name = input("Enter your Name : ")
-path = input("Enter the path of file : ")
+path = input("Enter the path of text file of links : ")
 fname = input("Enter the name of the text file (without ext) : ")
 o_path = input("Enter the path of output file (Leave empty if same as above) : ")
 o_name = input("Enter the name of the output csv file (without ext) : ")
