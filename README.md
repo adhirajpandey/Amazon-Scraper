@@ -44,4 +44,4 @@ There are three scrapers in this project :
 3. Enter the name of the links txt file
 4. Enter the output path where csv will be saved
 5. Enter the name of desired output csv
-6. Check [filename].csv for Product Details in path provided.
+6. Check `[filename].csv` for Product Details in path provided.
