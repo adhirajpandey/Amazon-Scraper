@@ -57,6 +57,10 @@ def scrape(url):
     title = soup1.find(id='productTitle').get_text()
     price = soup1.find('span', attrs={'class':'a-price-whole'}).get_text()
 
+    #defining rating and number of reviews
+    rating =  soup1.find('span', attrs={'class':'a-icon-alt'}).get_text()
+    nreviews = soup1.find(id='acrCustomerReviewText').get_text()
+
 
     #cleaning title and price
 
@@ -65,16 +69,32 @@ def scrape(url):
 
     price = price[:-1]
 
-    return (title,price)
+    #cleaning rating and nreviews 
+
+    rating = rating.strip()
+    nreviews = nreviews.strip()
+
+    rating = rating[:3]
+        
+    i = nreviews.index('r')
+        
+    nreviews = nreviews[:i]
+
+
+    return (title,price,rating,nreviews)
 
 #this function takes title,price and starts printing output 
-def printData(title,price):
+def printData(title,price,rating,nreviews):
     
     print("The Product is : ", end="")
     print(title)
     print("-" * (17 + len(title)))
     print("The Price of Product is : ", end="")
     print(price)
+    print("The Rating of Product is : ", end="")
+    print(rating)
+    print("The Number of Reviews of Product is : ", end="")
+    print(nreviews)
 
 #this function prints extras like cleanlink, estimated time 
 def printExtra():
@@ -109,10 +129,10 @@ printExtra()
 
 if(validLink(link) == True):
     url = cleanLink(link)
-    title , price = scrape(url)
+    title, price, rating, nreviews = scrape(url)
     
     print("\n")
-    printData(title, price)
+    printData(title, price, rating, nreviews)
     
     print("\n")
     print(f"Thanks a lot for using the tool !!")
