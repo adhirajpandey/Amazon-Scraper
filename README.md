@@ -4,10 +4,11 @@
 
 This Project allows you to scrape data from amazon website.
 
-There are two scrapers in this project :
+There are three scrapers in this project :
 
   - title_price.py - Product link as input and Product Title and Price as Output.
-  - search_results.py - Search Term as input and txt file of links of listed Products as output.
+  - search_results.py - Search Term as input and txt file of links of listed Products as Output.
+  - links_csv.py - Text file of links as input and csv file with details as Output.
   
 # Requirements
 
@@ -20,7 +21,7 @@ There are two scrapers in this project :
 
 1. Clone this project `git clone https://github.com/adhirajpandey/amazon-scraper` and cd into it `cd amazon-scraper`
 2. Install Requirements `pip install -r requirements.txt`
-3. Run the Script `python title_price.py` or `python search_results.py`
+3. Run the Script `python title_price.py` or `python search_results.py` or `python links_csv.py`
 
 # Scrape Product Details from Amazon Link
 
