@@ -4,7 +4,7 @@
 
 This Project allows you to scrape data from amazon website.
 
-There are three scrapers in this project :
+Below are the scrapers used in this project :
 
   - product_details.py - Product link as input and Product Title, Price, Rating, Number of Reviews as Output.
   - search_results.py - Search Term as input and txt file of links of listed Products as Output.
