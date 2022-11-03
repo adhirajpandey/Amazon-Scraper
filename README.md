@@ -6,7 +6,7 @@ This Project allows you to scrape data from amazon website.
 
 There are three scrapers in this project :
 
-  - product_details.py - Product link as input and Product Title and Price as Output.
+  - product_details.py - Product link as input and Product Title, Price, Rating, Number of Reviews as Output.
   - search_results.py - Search Term as input and txt file of links of listed Products as Output.
   - links_csv.py - Text file of links as input and csv file with details as Output.
   
@@ -45,3 +45,26 @@ There are three scrapers in this project :
 4. Enter the output path where csv will be saved
 5. Enter the name of desired output csv
 6. Check `[filename].csv` for Product Details in path provided.
+
+# Examples
+
+1. product_details.py
+
+   ![product_details](https://user-images.githubusercontent.com/87516052/199699951-b1e14af6-af27-4d73-9c8b-99ace5ee68fa.png)
+   
+2. search_results.py
+
+   ![search_results1](https://user-images.githubusercontent.com/87516052/199700295-c5480652-bb04-468a-924b-927c26c657f0.png)
+   
+   ![search_results2](https://user-images.githubusercontent.com/87516052/199700511-fac42eee-0510-4b3b-97e3-0e99dc76dfa0.png)
+
+3. links_csv.py
+   
+   ![links_csv1](https://user-images.githubusercontent.com/87516052/199701273-ab6b2f96-2d55-4321-8535-2ff79e91a0e5.png)
+   
+   ![links_csv2](https://user-images.githubusercontent.com/87516052/199701499-23999571-ca0c-47d5-ae09-a8da9bd32133.png)
+
+   ![links_csv3](https://user-images.githubusercontent.com/87516052/199702495-02fed760-959f-48f0-b778-2fbeccfbfd0d.png)
+
+   
+
