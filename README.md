@@ -34,4 +34,12 @@ There are two scrapers in this project :
 2. Enter the Search Term
 3. Enter the number of pages upto which you want to scrape links
 4. Enter the name of the output file
-5. Check `[filename].txt` for Product links
+5. Check `[filename].txt` for Product links in Working Directory
+
+# Scrape Details of Multiple Products
+
+1. `python links_csv.py`
+2. Enter path of the links txt file
+3. Enter the name of the links txt file
+4. Enter the output path where csv will be saved
+5. Enter the name of desired output csv 
