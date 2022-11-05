@@ -2,7 +2,7 @@
 
 # Description
 
-This Project allows you to scrape data from amazon website.
+This Project allows you to scrape search results and product information from amazon website.
 
 Below are the scrapers used in this project :
 
